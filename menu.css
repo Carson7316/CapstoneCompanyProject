@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body {
+    font-family: 'Lobster', sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    list-style: circle;
+}
+
+
+
+
+#header {
+    background-color: #2d2b3e;
+    color: black;
+    padding: 5px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+header a {
+    padding: 0 20px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
+
+
+
+#showcase {
+    background-image: url("kelsey-chance-ZrhtQyGFG6s-unsplash.jpg");
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    color:#fff
+}
+
+#showcase .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#showcase h1 {
+    font-size: 55px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
