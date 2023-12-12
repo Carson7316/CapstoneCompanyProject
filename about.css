@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body {
+    font-family: 'Lobster', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    list-style: circle;
+}
+
+h2 {
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+#showcase {
+    background-image: url("ca-creative-8_Tlng54n8Y-unsplash.jpg");
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    color: white
+}
+
+#showcase .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#showcase h1 {
+    font-size: 55px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+
+#social {
+    text-align: center;
+    font-size: 50px;
+}
+
+#newsletter .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@keyframes arrowAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(50px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .arrow-container {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 25px 50px;
+    border-color: transparant transparant transparent blue;
+    animation: arrowAnimation 2s infinite;
+  }
